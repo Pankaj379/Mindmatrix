@@ -1,4 +1,4 @@
-# 🧠 OpenCartV_01 — Hybrid Automation Framework  
+# 🧠 MindMatrix — Hybrid Automation Framework  
 
 ![Java](https://img.shields.io/badge/Java-11%2B-orange?logo=java)
 ![Selenium](https://img.shields.io/badge/Selenium-WebDriver-brightgreen?logo=selenium)
