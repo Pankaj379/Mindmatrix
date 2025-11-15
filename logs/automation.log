@@ -1,0 +1,42 @@
+20:00:44.809 [main] INFO  testCases.TC002_Create_Custom_Field - Add the title of the Soluton custom field..
+20:00:46.108 [main] INFO  testCases.TC002_Create_Custom_Field - Add the description of Soluton custom field..
+20:00:46.249 [main] INFO  testCases.TC002_Create_Custom_Field - Click on on the next button..
+20:00:46.367 [main] INFO  testCases.TC002_Create_Custom_Field - Click on the edit custom field folder name..
+20:00:49.167 [main] INFO  testCases.TC002_Create_Custom_Field - Edit the solution custom field folder name
+20:00:49.428 [main] INFO  testCases.TC002_Create_Custom_Field - Edit the localized solution custom field folder name for english
+20:00:49.613 [main] INFO  testCases.TC002_Create_Custom_Field - Click on the custom field folder save button
+20:00:49.722 [main] INFO  testCases.TC002_Create_Custom_Field - Click on the add custom field
+20:00:50.270 [main] INFO  testCases.TC002_Create_Custom_Field - Select the custom field value from dropdown field
+20:01:43.078 [main] DEBUG org.testng.TestNG - suiteXmlPath: "E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml"
+20:01:43.353 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+20:01:43.353 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:01:43.356 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:01:43.356 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:01:43.357 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+20:01:43.359 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+20:01:43.359 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:01:43.359 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:01:43.359 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:01:43.359 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+20:01:43.367 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC002_Create_Custom_Field.Create_Solution_Custom_Field()[pri:0, instance:testCases.TC002_Create_Custom_Field@5bc9ba1d] -784552347
+20:01:43.368 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:01:43.368 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:01:43.368 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:01:43.368 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+20:01:43.379 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:01:49.626 [main] INFO  testCases.TC002_Create_Custom_Field - ****** Startign TC_001_MindmatrixLoginTest *****
+20:01:53.947 [main] INFO  testCases.TC002_Create_Custom_Field - ****** Finished TC_001_MindmatrixLoginTest *****
+20:01:53.958 [main] INFO  testCases.TC002_Create_Custom_Field - *****Starting TC002_Create_Custom_Field*****
+20:01:53.958 [main] INFO  testCases.TC002_Create_Custom_Field - Validating the Solution Custom Field.
+20:01:53.989 [main] INFO  testCases.TC002_Create_Custom_Field - CLick on the create button of solution custom field..
+20:01:54.146 [main] INFO  testCases.TC002_Create_Custom_Field - Add the title of the Soluton custom field..
+20:01:55.288 [main] INFO  testCases.TC002_Create_Custom_Field - Add the description of Soluton custom field..
+20:01:55.426 [main] INFO  testCases.TC002_Create_Custom_Field - Click on on the next button..
+20:01:55.526 [main] INFO  testCases.TC002_Create_Custom_Field - Click on the edit custom field folder name..
+20:01:58.057 [main] INFO  testCases.TC002_Create_Custom_Field - Edit the solution custom field folder name
+20:01:58.330 [main] INFO  testCases.TC002_Create_Custom_Field - Edit the localized solution custom field folder name for english
+20:01:58.509 [main] INFO  testCases.TC002_Create_Custom_Field - Click on the custom field folder save button
+20:01:58.626 [main] INFO  testCases.TC002_Create_Custom_Field - Click on the add custom field
+20:01:59.148 [main] INFO  testCases.TC002_Create_Custom_Field - Select the custom field value from dropdown field

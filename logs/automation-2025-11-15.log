@@ -1,0 +1,51 @@
+19:52:41.488 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+19:52:41.493 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:52:41.494 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:52:41.494 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:52:41.494 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:52:41.503 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC002_Create_Custom_Field.Create_Solution_Custom_Field()[pri:0, instance:testCases.TC002_Create_Custom_Field@5bc9ba1d] -784552347
+19:52:41.503 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:52:41.504 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:52:41.504 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:52:41.504 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:52:41.512 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+19:52:49.804 [main] INFO  testCases.TC002_Create_Custom_Field - ****** Startign TC_001_MindmatrixLoginTest *****
+19:52:54.502 [main] INFO  testCases.TC002_Create_Custom_Field - ****** Finished TC_001_MindmatrixLoginTest *****
+19:52:54.520 [main] INFO  testCases.TC002_Create_Custom_Field - *****Starting TC002_Create_Custom_Field*****
+19:52:54.520 [main] INFO  testCases.TC002_Create_Custom_Field - Validating the Solution Custom Field.
+19:52:54.553 [main] INFO  testCases.TC002_Create_Custom_Field - CLick on the create button of solution custom field..
+19:52:54.669 [main] INFO  testCases.TC002_Create_Custom_Field - Add the title of the Soluton custom field..
+19:52:55.753 [main] INFO  testCases.TC002_Create_Custom_Field - Add the description of Soluton custom field..
+19:52:55.871 [main] INFO  testCases.TC002_Create_Custom_Field - Click on on the next button..
+19:52:55.980 [main] INFO  testCases.TC002_Create_Custom_Field - Click on the edit custom field folder name..
+19:52:58.772 [main] INFO  testCases.TC002_Create_Custom_Field - Edit the solution custom field folder name
+19:52:59.030 [main] INFO  testCases.TC002_Create_Custom_Field - Edit the localized solution custom field folder name for english
+19:52:59.220 [main] INFO  testCases.TC002_Create_Custom_Field - Click on the custom field folder save button
+19:52:59.308 [main] INFO  testCases.TC002_Create_Custom_Field - Click on the add custom field
+19:52:59.864 [main] INFO  testCases.TC002_Create_Custom_Field - Select the custom field value from dropdown field
+20:00:31.817 [main] DEBUG org.testng.TestNG - suiteXmlPath: "E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml"
+20:00:32.118 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+20:00:32.118 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:00:32.122 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:00:32.122 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:00:32.122 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+20:00:32.126 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+20:00:32.127 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:00:32.127 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:00:32.127 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:00:32.127 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+20:00:32.134 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC002_Create_Custom_Field.Create_Solution_Custom_Field()[pri:0, instance:testCases.TC002_Create_Custom_Field@5bc9ba1d] -784552347
+20:00:32.134 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:00:32.134 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:00:32.135 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:00:32.135 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+20:00:32.144 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:00:40.124 [main] INFO  testCases.TC002_Create_Custom_Field - ****** Startign TC_001_MindmatrixLoginTest *****
+20:00:44.620 [main] INFO  testCases.TC002_Create_Custom_Field - ****** Finished TC_001_MindmatrixLoginTest *****
+20:00:44.636 [main] INFO  testCases.TC002_Create_Custom_Field - *****Starting TC002_Create_Custom_Field*****
+20:00:44.636 [main] INFO  testCases.TC002_Create_Custom_Field - Validating the Solution Custom Field.
+20:00:44.710 [main] INFO  testCases.TC002_Create_Custom_Field - CLick on the create button of solution custom field..
