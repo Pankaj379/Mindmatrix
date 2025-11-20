@@ -11,11 +11,11 @@
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<!-- <class name="testCases.TC001_Account_Registration"/> -->
-			<!-- <class name="testCases.TC002_LoginTest"/> -->
+			
 			<!-- <class name="testCases.TC001_Mindmatrix_Login"/> -->
-			<class name="testCases.TC002_Create_Custom_Field"/>
-			<!-- <class name="testCases.TC003_LoginDDT" /> -->
+			<!-- <class name="testCases.TC002_Create_Custom_Field"/> -->
+			<class name="testCases.TC0003_Create_New_Record"/>
+	
 		</classes>
 	</test> <!--
 	Test -->

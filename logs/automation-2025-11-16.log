@@ -1,0 +1,52 @@
+14:19:32.474 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:19:32.479 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:19:32.488 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+14:19:39.648 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+14:19:51.880 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC0003_Create_New_Record.Create_Solution_Custom_Field()[pri:0, instance:testCases.TC0003_Create_New_Record@5bc9ba1d] 454847282
+14:19:51.881 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:19:51.881 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:19:51.882 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:19:51.882 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:30:30.338 [main] DEBUG org.testng.TestNG - suiteXmlPath: "E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml"
+14:30:30.623 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+14:30:30.624 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:30:30.627 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:30:30.627 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:30:30.628 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:30:30.631 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+14:30:30.632 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:30:30.633 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:30:30.633 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:30:30.634 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:30:30.641 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC0003_Create_New_Record.Create_Solution_Custom_Field()[pri:0, instance:testCases.TC0003_Create_New_Record@5bc9ba1d] 454847282
+14:30:30.641 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:30:30.641 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:30:30.642 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:30:30.642 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:30:30.654 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+14:30:38.365 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+14:30:50.566 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC0003_Create_New_Record.Create_Solution_Custom_Field()[pri:0, instance:testCases.TC0003_Create_New_Record@5bc9ba1d] 454847282
+14:30:50.567 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:30:50.567 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:30:50.568 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:30:50.568 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:32:45.235 [main] DEBUG org.testng.TestNG - suiteXmlPath: "E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml"
+14:32:45.494 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+14:32:45.494 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:32:45.497 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:32:45.497 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:32:45.497 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:32:45.499 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+14:32:45.500 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:32:45.500 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:32:45.500 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:32:45.500 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:32:45.508 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC0003_Create_New_Record.Create_Solution_Custom_Field()[pri:0, instance:testCases.TC0003_Create_New_Record@5bc9ba1d] 454847282
+14:32:45.508 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:32:45.509 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:32:45.509 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:32:45.509 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
