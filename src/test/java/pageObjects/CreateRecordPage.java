@@ -47,20 +47,41 @@ public class CreateRecordPage extends BasePage {
 
 	@FindBy(xpath = "//input[@id='price']")
 	WebElement txtPrice;
-	
+
 	@FindBy(xpath = "(//a[normalize-space()='Test single localized filters:23/05/2025'])[1]")
 	WebElement btnFilter;
-	
+
 	@FindBy(xpath = "//label[normalize-space()='Test english localized.']")
 	WebElement checkboxFilterSelect;
-	
+
 	@FindBy(xpath = "//i[@class='btn-icon fa fa-angle-double-right']")
 	WebElement btnNextToSelectBanner;
 
+	@FindBy(xpath = "//i[@class='btn-icon fa fa-angle-double-right']")
+	WebElement btnNextToDetail;
+
+	@FindBy(xpath = "//div[@class='form-group col col-sm-6']//div[@class='input-group']//input")
+	WebElement txtTextDetail;
+
+	@FindBy(xpath = "//i[@class='btn-icon fa fa-angle-double-right']")
+	WebElement btnNextRelatedAssets;
 
 
+	// Handling Related asset auto suggestion dropdown value.
 
+	@FindBy(xpath = "//ul[@class='select2-choices']//li//input")
+	WebElement txtFilterRelatedAsset;
 
+	//@FindBy(xpath = "//body/div[@id='select2-drop']/ul[@class='select2-results']/li")
+	//private List<WebElement> dropdownSelRelatedAsset;
+	@FindBy(xpath = "//div[@id='select2-drop']//li[1]//div[1]//div[1]")
+	WebElement dropdownSelRelatedAsset;
+
+	@FindBy(xpath = "//i[@class='btn-icon fa fa-angle-double-right']")
+	WebElement btnNextRelatedProducts;	
+
+	@FindBy(xpath = "//div[contains(text(),'Finish')]")
+	WebElement btnFinish;	
 
 
 
@@ -116,17 +137,81 @@ public class CreateRecordPage extends BasePage {
 	public void setPrice(String price) {
 		txtPrice.sendKeys(price);
 	}
-	
+
 	public void clickFilterType() {
 		btnFilter.click();
 	}
+
 	public void clickFilter() {
 		checkboxFilterSelect.click();
 	}
+
 	public void clickNextToSelectBanner() {
-		btnNextToSelectBanner.click();
+
+	    // Wait until the button is actually clickable
+	    wait.until(ExpectedConditions.elementToBeClickable(btnNextToSelectBanner));
+
+	    // Scroll the element into view
+	    js.executeScript("arguments[0].scrollIntoView(true);", btnNextToSelectBanner);
+
+	    // Force click to avoid interception issues
+	    js.executeScript("arguments[0].click();", btnNextToSelectBanner);
 	}
 
+
+	public void clickNextToDetails() {
+		 // Wait until the button is actually clickable
+	    wait.until(ExpectedConditions.elementToBeClickable(btnNextToDetail));
+
+	    // Scroll the element into view
+	    js.executeScript("arguments[0].scrollIntoView(true);", btnNextToDetail);
+
+	    // Force click to avoid interception issues
+	    js.executeScript("arguments[0].click();", btnNextToDetail);
+	}
+
+	public void setTextDetails(String text) {
+		txtTextDetail.sendKeys(text);
+	}
+
+	public void clickNextToRelatedAssets() throws InterruptedException {
+		WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		mywait.until(ExpectedConditions.visibilityOfAllElements(btnNextRelatedAssets));
+		Thread.sleep(3000);
+		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", btnNextRelatedAssets);
+		btnNextRelatedAssets.click();
+	}
+
+
+	public void setFilterRelatedAssets(String test) {
+		txtFilterRelatedAsset.sendKeys(test); }
+
+
+
+	public void selectFilterRelatedAsset() {
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+		// Wait until dropdown results appear
+		wait.until(ExpectedConditions.visibilityOfAllElements(dropdownSelRelatedAsset));
+		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", dropdownSelRelatedAsset);
+		dropdownSelRelatedAsset.click();
+		
+		
+	}
+
+
+
+	public void clickNextToRelatedProducts() throws InterruptedException {
+		WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		mywait.until(ExpectedConditions.visibilityOfAllElements(btnNextRelatedProducts));
+		Thread.sleep(3000);
+		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", btnNextRelatedProducts);
+		btnNextRelatedProducts.click();
+	}
+	public void clickOnFinish() {
+		btnFinish.click();
+	}
 
 
 

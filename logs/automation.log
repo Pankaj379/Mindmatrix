@@ -1,16 +1,48 @@
-23:18:18.902 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-23:18:18.907 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-23:18:18.912 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
-23:18:18.912 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-23:18:18.913 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-23:18:18.913 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-23:18:18.913 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-23:18:18.922 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC0003_Create_New_Record.Create_Solution_Custom_Field()[pri:0, instance:testCases.TC0003_Create_New_Record@2974f221] -389569738
-23:18:18.922 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-23:18:18.923 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-23:18:18.923 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-23:18:18.923 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-23:18:18.931 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+20:13:06.772 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
 
-23:18:45.988 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:13:17.496 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:14:31.930 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:14:57.228 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:16:58.523 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:17:10.597 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:18:22.146 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:18:36.235 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:19:46.702 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:20:21.138 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:23:06.521 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:23:15.719 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:32:05.587 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:32:19.236 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:39:40.217 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:39:49.366 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:48:28.082 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:48:45.579 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:52:38.177 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:52:54.514 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+21:21:37.926 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+21:21:46.693 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+21:23:08.299 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+21:23:18.273 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
