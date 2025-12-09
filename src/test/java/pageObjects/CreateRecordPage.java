@@ -48,7 +48,7 @@ public class CreateRecordPage extends BasePage {
 	@FindBy(xpath = "//input[@id='price']")
 	WebElement txtPrice;
 
-	@FindBy(xpath = "(//a[normalize-space()='Test single localized filters:23/05/2025'])[1]")
+	@FindBy(xpath = "//a[@id='1116']")
 	WebElement btnFilter;
 
 	@FindBy(xpath = "//label[normalize-space()='Test english localized.']")
@@ -60,7 +60,7 @@ public class CreateRecordPage extends BasePage {
 	@FindBy(xpath = "//i[@class='btn-icon fa fa-angle-double-right']")
 	WebElement btnNextToDetail;
 
-	@FindBy(xpath = "//div[@class='form-group col col-sm-6']//div[@class='input-group']//input")
+	@FindBy(xpath = "//input[@id='f_455']")
 	WebElement txtTextDetail;
 
 	@FindBy(xpath = "//i[@class='btn-icon fa fa-angle-double-right']")
@@ -86,15 +86,15 @@ public class CreateRecordPage extends BasePage {
 
 
 
-
-
+// -----------------------------------------------
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	//-------------------------------------Methods--------------------------------------------
 
 	public void clickFolderDropdown() {
 
-		WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		mywait.until(ExpectedConditions.elementToBeClickable(btnFolderDropdown)).click();
+		wait.until(ExpectedConditions.elementToBeClickable(btnFolderDropdown)).click();
 	}
 
 
@@ -102,8 +102,7 @@ public class CreateRecordPage extends BasePage {
 	public String selectLastDropdownValue() {
 
 		// Wait for dropdown items
-		WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		mywait.until(ExpectedConditions.visibilityOfAllElements(dropdownValues));
+		wait.until(ExpectedConditions.visibilityOfAllElements(dropdownValues));
 
 		// Dynamic XPath: last() dropdown element
 		WebElement lastElement = driver.findElement(By.xpath("(//li[@class='solutiontypes'])[last()]"));
@@ -139,10 +138,21 @@ public class CreateRecordPage extends BasePage {
 	}
 
 	public void clickFilterType() {
+		
+		// Wait until the button is actually clickable
+	    wait.until(ExpectedConditions.elementToBeClickable(btnFilter));
+
+	    // Scroll the element into view
+	    js.executeScript("arguments[0].scrollIntoView(true);", btnFilter);
 		btnFilter.click();
 	}
 
 	public void clickFilter() {
+		// Wait until the button is actually clickable
+	    wait.until(ExpectedConditions.elementToBeClickable(checkboxFilterSelect));
+
+	    // Scroll the element into view
+	    js.executeScript("arguments[0].scrollIntoView(true);", checkboxFilterSelect);
 		checkboxFilterSelect.click();
 	}
 

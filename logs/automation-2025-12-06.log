@@ -1,0 +1,77 @@
+20:13:06.772 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:13:17.496 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:14:31.930 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:14:57.228 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:16:58.523 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:17:10.597 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:18:22.146 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:18:36.235 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:19:46.702 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:20:21.138 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:23:06.521 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:23:15.719 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:32:05.587 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:32:19.236 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:39:40.217 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:39:49.366 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:48:28.082 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:48:45.579 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:52:38.177 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:52:54.514 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+21:21:37.926 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+21:21:46.693 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+21:23:08.299 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+21:23:18.273 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+20:56:29.745 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:56:42.925 [main] INFO  testCases.TC0004_Place_An_Order - ****** Starting TC0004_Place_An_Order*****
+20:56:43.823 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on the record Add to cart button*****
+20:58:09.612 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:58:17.083 [main] INFO  testCases.TC0004_Place_An_Order - ****** Starting TC0004_Place_An_Order*****
+20:58:18.094 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on the record Add to cart button*****
+20:58:54.622 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+20:59:02.503 [main] INFO  testCases.TC0004_Place_An_Order - ****** Starting TC0004_Place_An_Order*****
+20:59:03.464 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on the record Add to cart button*****
+20:59:09.531 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on cart Icon*****
+20:59:09.997 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on place an order button*****
+20:59:11.316 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on Yes of popup place an order button*****
+21:03:05.580 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+21:03:12.728 [main] INFO  testCases.TC0004_Place_An_Order - ****** Starting TC0004_Place_An_Order*****
+21:03:13.697 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on the record Add to cart button*****
+21:03:24.440 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on cart Icon*****
+21:03:25.023 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on place an order button*****
+21:03:28.599 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on Yes of popup place an order button*****
+21:08:58.755 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
