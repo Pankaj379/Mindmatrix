@@ -60,7 +60,7 @@ public class CreateRecordPage extends BasePage {
 	@FindBy(xpath = "//i[@class='btn-icon fa fa-angle-double-right']")
 	WebElement btnNextToDetail;
 
-	@FindBy(xpath = "//input[@id='f_455']")
+	@FindBy(xpath = "//input[@placeholder='<TEST34>']")
 	WebElement txtTextDetail;
 
 	@FindBy(xpath = "//i[@class='btn-icon fa fa-angle-double-right']")

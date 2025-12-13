@@ -11,8 +11,21 @@ public class Solution_Custom_page extends BasePage {
 		super(driver);
 	}
 
+	
 	@FindBy(xpath = "//h1[normalize-space()='Solution Custom Fields']") // Sol Custom Page heading
 	WebElement msgHeading;
+	
+	@FindBy(xpath = "//ul[@class='navbar-nav navbar-right']//i[@id='usericon']")
+	WebElement btnProfile;
+	
+	
+	@FindBy(xpath = "//span[normalize-space()='Log out']")
+	WebElement btnLogout;
+	
+	
+	@FindBy(xpath = "//div[@id='MsgBoxBack']//button[@id='bot2-Msg1']")
+	WebElement btnSessionLogout;
+	
 
 	public boolean isSolCustomPageExists() {
 		try {
@@ -21,5 +34,18 @@ public class Solution_Custom_page extends BasePage {
 			return false;
 		}
 	}
-
+	
+	public void clickProfileToLogout() {
+		btnProfile.click();
+	}
+	
+	public void clickOnLogout() {
+		btnLogout.click();
+	}
+	
+	public void clickOnCurrentSessionLogout() {
+		btnSessionLogout.click();
+	}
+	
+	
 }

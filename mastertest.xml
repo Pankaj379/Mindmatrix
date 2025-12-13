@@ -14,8 +14,10 @@
 			
 			<!-- <class name="testCases.TC001_Mindmatrix_Login"/> -->
 			<!-- <class name="testCases.TC002_Create_Custom_Field"/> -->
-			<class name="testCases.TC0003_Create_New_Record"/>
-			<!--<class name="testCases.TC0004_Place_An_Order"/>-->
+			<!--<class name="testCases.TC0003_Create_New_Record"/> -->
+			<!-- <class name="testCases.TC0004_Place_An_Order"/> -->
+			<!-- <class name="testCases.TC005_Mindmatrix_DDT"/> -->
+			<class name="testCases.TC006_Complete_Flow_Test"/>
 	
 		</classes>
 	</test> <!--

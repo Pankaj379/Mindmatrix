@@ -1,5 +1,7 @@
 package testCases;
 
+import java.time.Duration;
+
 import org.testng.annotations.Test;
 
 import pageObjects.MarketplaceOrder;
@@ -24,7 +26,8 @@ public class TC0004_Place_An_Order extends BaseClass {
 		
 
 
-		// Create New Record:
+		// Place An Order:
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		MarketplaceOrder placeOrd = new MarketplaceOrder(driver);
 		
 		logger.info("******Click on the record Add to cart button*****");

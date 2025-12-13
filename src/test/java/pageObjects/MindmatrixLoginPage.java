@@ -21,10 +21,12 @@ public class MindmatrixLoginPage extends BasePage {
 	WebElement btnLogin;
 
 	public void setEmail(String email) {
+		txtEmailAddress.clear();
 		txtEmailAddress.sendKeys(email);
 	}
 
 	public void setPassword(String pwd) {
+		txtPassword.clear();
 		txtPassword.sendKeys(pwd);
 	}
 

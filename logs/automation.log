@@ -1,52 +1,9 @@
-21:09:06.040 [main] INFO  testCases.TC0004_Place_An_Order - ****** Starting TC0004_Place_An_Order*****
-21:09:07.019 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on the record Add to cart button*****
-21:09:13.627 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on cart Icon*****
-21:09:15.346 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on place an order button*****
-21:09:16.966 [main] INFO  testCases.TC0004_Place_An_Order - ******Click on Yes of popup place an order button*****
-21:19:37.227 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:19:44.098 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
-21:20:47.323 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:20:54.477 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
-21:21:40.705 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:21:47.486 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
-21:23:33.950 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:24:13.879 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:24:23.665 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
-21:26:50.534 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:26:57.987 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
-21:32:09.344 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:32:15.075 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
-21:35:44.490 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:35:50.822 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
-21:36:17.443 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:36:23.833 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
-21:38:41.141 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:38:47.281 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
-21:42:37.630 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:42:44.022 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
-21:44:41.560 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
-
-21:44:47.576 [main] INFO  testCases.TC0003_Create_New_Record - ****** Starting TC0003_Create_New_Record*****
+23:51:39.598 [main] INFO  testCases.TC006_Complete_Flow_Test - Edit the solution custom field folder name
+23:51:39.860 [main] INFO  testCases.TC006_Complete_Flow_Test - Edit the localized solution custom field folder name for english
+23:51:40.022 [main] INFO  testCases.TC006_Complete_Flow_Test - Click on the custom field folder save button
+23:51:40.131 [main] INFO  testCases.TC006_Complete_Flow_Test - Click on the add custom field
+23:51:40.624 [main] INFO  testCases.TC006_Complete_Flow_Test - Select the custom field value from dropdown field
+23:52:01.571 [main] INFO  testCases.TC006_Complete_Flow_Test - ******Click on the record Add to cart button*****
+23:52:04.651 [main] INFO  testCases.TC006_Complete_Flow_Test - ******Click on cart Icon*****
+23:52:04.928 [main] INFO  testCases.TC006_Complete_Flow_Test - ******Click on place an order button*****
+23:52:08.472 [main] INFO  testCases.TC006_Complete_Flow_Test - ******Click on Yes of popup place an order button*****

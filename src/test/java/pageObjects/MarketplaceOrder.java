@@ -75,11 +75,11 @@ public class MarketplaceOrder extends BasePage {
         clickElement(cartIcon);
     }
 
-    public void clickOnPlaceOrder() {
+    public void clickOnPlaceOrder() throws InterruptedException {
     	
     	// Adding wait explicitly before clicking
         wait.until(ExpectedConditions.visibilityOf(btnValidateRemove));
-        wait.until(ExpectedConditions.elementToBeClickable(btnValidateRemove));
+        Thread.sleep(2000);
         clickElement(proceedToBuyBtn);
     
     }
