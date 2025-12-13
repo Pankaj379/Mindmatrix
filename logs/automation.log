@@ -7,3 +7,28 @@
 23:52:04.651 [main] INFO  testCases.TC006_Complete_Flow_Test - ******Click on cart Icon*****
 23:52:04.928 [main] INFO  testCases.TC006_Complete_Flow_Test - ******Click on place an order button*****
 23:52:08.472 [main] INFO  testCases.TC006_Complete_Flow_Test - ******Click on Yes of popup place an order button*****
+00:06:59.643 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Mindmatrix Hybrid Framework\Mindmatrix\mastertest.xml
+
+00:07:07.522 [main] INFO  testCases.TC006_Complete_Flow_Test - ****** Starting TC006_Complete_Flow_Test ******
+00:07:12.217 [main] INFO  testCases.TC006_Complete_Flow_Test - Login successful and Solution Custom Field page validated
+00:07:12.243 [main] INFO  testCases.TC006_Complete_Flow_Test - ***** Starting creation of Solution Custom Field *****
+00:07:12.275 [main] INFO  testCases.TC006_Complete_Flow_Test - Clicking on Create button
+00:07:12.384 [main] INFO  testCases.TC006_Complete_Flow_Test - Entering Solution Custom Field title
+00:07:13.448 [main] INFO  testCases.TC006_Complete_Flow_Test - Entering Solution Custom Field description
+00:07:13.572 [main] INFO  testCases.TC006_Complete_Flow_Test - Clicking on Next button
+00:07:13.697 [main] INFO  testCases.TC006_Complete_Flow_Test - Editing custom field folder name
+00:07:16.657 [main] INFO  testCases.TC006_Complete_Flow_Test - Setting localized folder name (English)
+00:07:16.835 [main] INFO  testCases.TC006_Complete_Flow_Test - Saving custom field folder
+00:07:16.919 [main] INFO  testCases.TC006_Complete_Flow_Test - Adding new custom field
+00:07:17.422 [main] INFO  testCases.TC006_Complete_Flow_Test - Selecting custom field type
+00:07:22.232 [main] INFO  testCases.TC006_Complete_Flow_Test - ****** Solution Custom Field created successfully ******
+00:07:22.232 [main] INFO  testCases.TC006_Complete_Flow_Test - ***** Starting New Record creation *****
+00:07:24.492 [main] INFO  testCases.TC006_Complete_Flow_Test - Selected dropdown value: New SolutionNWY@820
+00:07:40.914 [main] INFO  testCases.TC006_Complete_Flow_Test - ***** New Record created successfully *****
+00:07:40.914 [main] INFO  testCases.TC006_Complete_Flow_Test - ***** Starting Marketplace Order flow *****
+00:07:44.235 [main] INFO  testCases.TC006_Complete_Flow_Test - Added item to cart
+00:07:44.581 [main] INFO  testCases.TC006_Complete_Flow_Test - Opened cart
+00:07:47.797 [main] INFO  testCases.TC006_Complete_Flow_Test - Clicked Place Order
+00:07:48.055 [main] INFO  testCases.TC006_Complete_Flow_Test - Order placed successfully
+00:07:48.055 [main] INFO  testCases.TC006_Complete_Flow_Test - ****** TC006_Complete_Flow_Test completed successfully ******

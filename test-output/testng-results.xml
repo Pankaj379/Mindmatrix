@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-13T23:51:25 IST" name="Master Suite" finished-at="2025-12-13T23:52:09 IST" duration-ms="43532">
+  <suite started-at="2025-12-14T00:06:59 IST" name="Master Suite" finished-at="2025-12-14T00:07:48 IST" duration-ms="48723">
     <groups>
       <group name="Master">
-        <method signature="TC006_Complete_Flow_Test.Create_Solution_Custom_Field()[pri:0, instance:testCases.TC006_Complete_Flow_Test@7c098bb3]" name="Create_Solution_Custom_Field" class="testCases.TC006_Complete_Flow_Test"/>
+        <method signature="TC006_Complete_Flow_Test.completeRegressionRun()[pri:0, instance:testCases.TC006_Complete_Flow_Test@7c098bb3]" name="completeRegressionRun" class="testCases.TC006_Complete_Flow_Test"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC006_Complete_Flow_Test.Create_Solution_Custom_Field()[pri:0, instance:testCases.TC006_Complete_Flow_Test@7c098bb3]" name="Create_Solution_Custom_Field" class="testCases.TC006_Complete_Flow_Test"/>
+        <method signature="TC006_Complete_Flow_Test.completeRegressionRun()[pri:0, instance:testCases.TC006_Complete_Flow_Test@7c098bb3]" name="completeRegressionRun" class="testCases.TC006_Complete_Flow_Test"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-12-13T23:51:25 IST" name="Test" finished-at="2025-12-13T23:52:09 IST" duration-ms="43532">
+    <test started-at="2025-12-14T00:06:59 IST" name="Test" finished-at="2025-12-14T00:07:48 IST" duration-ms="48723">
       <class name="testCases.TC006_Complete_Flow_Test">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_Complete_Flow_Test@7c098bb3]" started-at="2025-12-13T23:51:25 IST" name="setup" finished-at="2025-12-13T23:51:30 IST" duration-ms="4701" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_Complete_Flow_Test@7c098bb3]" started-at="2025-12-14T00:06:59 IST" name="setup" finished-at="2025-12-14T00:07:07 IST" duration-ms="7541" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Create_Solution_Custom_Field()[pri:0, instance:testCases.TC006_Complete_Flow_Test@7c098bb3]" started-at="2025-12-13T23:51:30 IST" name="Create_Solution_Custom_Field" finished-at="2025-12-13T23:52:08 IST" duration-ms="38166" status="PASS">
+        <test-method signature="completeRegressionRun()[pri:0, instance:testCases.TC006_Complete_Flow_Test@7c098bb3]" started-at="2025-12-14T00:07:07 IST" name="completeRegressionRun" finished-at="2025-12-14T00:07:48 IST" duration-ms="40547" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Create_Solution_Custom_Field -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC006_Complete_Flow_Test@7c098bb3]" started-at="2025-12-13T23:52:08 IST" name="teardown" finished-at="2025-12-13T23:52:09 IST" duration-ms="329" status="PASS">
+        </test-method> <!-- completeRegressionRun -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC006_Complete_Flow_Test@7c098bb3]" started-at="2025-12-14T00:07:48 IST" name="teardown" finished-at="2025-12-14T00:07:48 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

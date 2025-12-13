@@ -1,10 +1,7 @@
 package testCases;
 
 import java.time.Duration;
-import java.util.List;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,175 +14,134 @@ import testBase.BaseClass;
 
 public class TC006_Complete_Flow_Test extends BaseClass {
 
-	@Test(groups= {"Sanity","Master"})
-	void Complete_Regression_Run() {
+	@Test(groups = { "Sanity", "Master" })
+	void completeRegressionRun() {
 
-		logger.info("****** Startign TC_001_MindmatrixLoginTest *****");
+		logger.info("****** Starting TC006_Complete_Flow_Test ******");
 
-		try
-		{
+		try {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-			//Login
-			MindmatrixLoginPage lp=new MindmatrixLoginPage(driver);
+			// ===================== Login =====================
+			MindmatrixLoginPage lp = new MindmatrixLoginPage(driver);
 			lp.setEmail(pro.getProperty("email"));
 			lp.setPassword(pro.getProperty("password"));
 			lp.clickLogin();
 
-			// Validate the Solution custom field page.
-			Solution_Custom_page macc=new Solution_Custom_page(driver);
-			boolean targetPage=macc.isSolCustomPageExists();
+			// ===================== Validate Solution Custom Field Page =====================
+			Solution_Custom_page scp = new Solution_Custom_page(driver);
+			boolean isTargetPageDisplayed = scp.isSolCustomPageExists();
 
+			Assert.assertTrue(isTargetPageDisplayed, "Solution Custom Field page is not displayed");
 
+			logger.info("Login successful and Solution Custom Field page validated");
 
-			// Assert take three parameters first two to verify and 3rd for message.
-
-			Assert.assertTrue(targetPage); // Assert.assertEquals(targetPage, true,"Login failed"); 
-
-			logger.info("****** Finished TC_001_MindmatrixLoginTest *****");
-
-
+			// ===================== Create Solution Custom Field =====================
 			CreateSolutionCustomField cs = new CreateSolutionCustomField(driver);
 
-			// 1
-			logger.info("*****Start Creating_Custom_Field*****");
+			logger.info("***** Starting creation of Solution Custom Field *****");
 
-			logger.info("Validating the Solution Custom Field.");
-			String confmsg = cs.page_Valid_CreateRecord();
-			if(confmsg.equals("Solution Custom Fields")){
-				Assert.assertTrue(true);
-			}else {
-				logger.error("Test failed...");
-				logger.debug("debug logs..");
-				Assert.assertTrue(false);
-			}
+			String pageHeader = cs.page_Valid_CreateRecord();
+			Assert.assertEquals(pageHeader, "Solution Custom Fields", "Incorrect page header");
 
-			// 2
-			logger.info("CLick on the create button of solution custom field..");
+			logger.info("Clicking on Create button");
 			cs.clickCreate();
 
-			// 3
-			logger.info("Add the title of the Soluton custom field..");
+			logger.info("Entering Solution Custom Field title");
 			cs.setFolderName(randomAlphaNumberic().toUpperCase());
 
-			// 4
-			logger.info("Add the description of Soluton custom field..");
+			logger.info("Entering Solution Custom Field description");
 			cs.setDescription("Test description");
 
-			//
-			/*
-			 * logger.info("Add the filter dropdown value");
-			 * cs.selectFilterOption("test12");
-			 */
-
-			// 5
-			logger.info("Click on on the next button..");
+			logger.info("Clicking on Next button");
 			cs.clickNext();
 
-			// 6
-			logger.info("Click on the edit custom field folder name..");
+			logger.info("Editing custom field folder name");
 			cs.clickEditCustomFolder();
-
-			// 7
-			logger.info("Edit the solution custom field folder name");
 			cs.setFolderName("567");
 
-			// 8
-			logger.info("Edit the localized solution custom field folder name for english");
-			cs.setLocalFolderName("Localizeda_English_text");
+			logger.info("Setting localized folder name (English)");
+			cs.setLocalFolderName("Localized_English_Text");
 
-			// 9
-			logger.info("Click on the custom field folder save button");
+			logger.info("Saving custom field folder");
 			cs.clickSave();
 
-			// 10
-			logger.info("Click on the add custom field");
+			logger.info("Adding new custom field");
 			cs.clickEditCustomField();
 
-			// 11
-			logger.info("Select the custom field value from dropdown field");
+			logger.info("Selecting custom field type");
 			cs.selectFieldType("Text");
 
-			// 12
-
 			cs.setFieldDisplayName("Test34");
-
 			cs.setFieldParseName("test342q");
-
 			cs.setMinCharLimit("3");
-
 			cs.setMaxCharLimit("128");
-
 			cs.setRequiredCheckbox();
-
 			cs.setShowTooltipCheckbox();
-
-			cs.setTooltipMsg("This is text field tooltip..");
+			cs.setTooltipMsg("This is a text field tooltip");
 
 			cs.clickSaveButton();
-
 			cs.clickNextButton();
-
 			cs.clickOkButton();
-
 			cs.clickFinishButton();
-			
-			logger.info("****** Custom field created Successfully *****");
 
-			// Create New Record:
-			logger.info("***** Started Creating New Record in Added Custom Field *****");
+			logger.info("****** Solution Custom Field created successfully ******");
+
+			// ===================== Create New Record =====================
+			logger.info("***** Starting New Record creation *****");
 
 			driver.navigate().to(pro.getProperty("appURL2"));
-			
+
 			CreateRecordPage cr = new CreateRecordPage(driver);
 			cr.clickFolderDropdown();
+
 			String lastValue = cr.selectLastDropdownValue();
-			System.out.println("Selected Last Dropdown Value: " + lastValue);
+			logger.info("Selected dropdown value: " + lastValue);
+
 			cr.clickCreateRecord();
-			cr.setName("Test:" + randomNumber());
-			cr.setDescription("This is to test the description.");
+			cr.setName("Test-" + randomNumber());
+			cr.setDescription("This is to test the description");
 			cr.enablePrice();
 			cr.setPrice("215");
 			cr.clickFilterType();
 			cr.clickFilter();
 			cr.clickNextToSelectBanner();
 			cr.clickNextToDetails();
-			cr.setTextDetails("Test the text field.");
+			cr.setTextDetails("Testing text field");
 			cr.clickNextToRelatedAssets();
 
-			cr.setFilterRelatedAssets("test"); 
+			cr.setFilterRelatedAssets("test");
 			cr.selectFilterRelatedAsset();
 
 			cr.clickNextToRelatedProducts();
 			cr.clickOnFinish();
-			logger.info("***** New Record Created Successfully *****");
 
+			logger.info("***** New Record created successfully *****");
 
-			// Place An Order:
-			logger.info("*****Placed An order from marketplace *****");
+			// ===================== Place Order from Marketplace =====================
+			logger.info("***** Starting Marketplace Order flow *****");
 
 			driver.navigate().to(pro.getProperty("appURL3"));
-			
-			MarketplaceOrder placeOrd = new MarketplaceOrder(driver);
 
-			logger.info("******Click on the record Add to cart button*****");
-			placeOrd.clickAddToCart();
-			logger.info("******Click on cart Icon*****");
-			placeOrd.clickOnCartIcon();
-			logger.info("******Click on place an order button*****");
-			placeOrd.clickOnPlaceOrder();
-			logger.info("******Click on Yes of popup place an order button*****");
-			placeOrd.clickYesOnPlaceOrder();
-			logger.info("*****Order Successfully Placed from Marketplace *****");
+			MarketplaceOrder placeOrder = new MarketplaceOrder(driver);
 
+			placeOrder.clickAddToCart();
+			logger.info("Added item to cart");
 
+			placeOrder.clickOnCartIcon();
+			logger.info("Opened cart");
 
+			placeOrder.clickOnPlaceOrder();
+			logger.info("Clicked Place Order");
+
+			placeOrder.clickYesOnPlaceOrder();
+			logger.info("Order placed successfully");
+
+			logger.info("****** TC006_Complete_Flow_Test completed successfully ******");
+
+		} catch (Exception e) {
+			logger.error("Test execution failed", e);
+			Assert.fail("Test failed due to exception: " + e.getMessage());
 		}
-		catch(Exception e)
-		{
-			Assert.fail();
-		}
-
 	}
-
 }
