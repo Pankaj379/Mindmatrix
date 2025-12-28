@@ -3,13 +3,13 @@
 **Hybrid Project – Mindmatrix Integration**
 A fully configured hybrid automation testing project built for the Mindmatrix application. This repository demonstrates comprehensive end-to-end test coverage of core workflows and integration with CI/CD processes.
 
-**Repository:** [https://github.com/Pankaj379/Mindmatrix.git](https://github.com/Pankaj379/Mindmatrix.git) ([GitHub][1])
+**Repository:** [https://github.com/Pankaj379/Mindmatrix.git](https://github.com/Pankaj379/Mindmatrix.git)
 
 ---
 
 ## 🛠️ About the Project
 
-This project is created as part of SDET/QA Automation implementation to validate the core features and workflows of the Mindmatrix platform. Mindmatrix is a unified sales ecosystem and partner relationship management solution combining marketing automation, channel management, and sales enablement tools. ([mindmatrix.net][2])
+This project is created as part of SDET/QA Automation implementation to validate the core features and workflows of the Mindmatrix platform. Mindmatrix is a unified sales ecosystem and partner relationship management solution combining marketing automation, channel management, and sales enablement tools.
 
 The hybrid testing framework here includes:
 
