@@ -12,7 +12,6 @@ A fully configured hybrid automation testing project built for the Mindmatrix ap
 This project is created as part of SDET/QA Automation implementation to validate the core features and workflows of the Mindmatrix platform. Mindmatrix is a unified sales ecosystem and partner relationship management solution combining marketing automation, channel management, and sales enablement tools.
 
 The hybrid testing framework here includes:
-
 ✔ Automated test scripts
 ✔ End-to-end scenario automation
 ✔ Test data sets and structured test reports
@@ -56,7 +55,6 @@ These best practices help improve maintainability, scalability, and reusability 
 ---
 
 ## 🚀 Features
-
 ✔ End-to-end test scenarios
 ✔ Automated login & workflow validation
 ✔ Structured test data management
