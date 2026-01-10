@@ -5,6 +5,14 @@ A fully configured hybrid automation testing project built for the Mindmatrix ap
 
 **Repository:** [https://github.com/Pankaj379/Mindmatrix.git](https://github.com/Pankaj379/Mindmatrix.git)
 
+**Recorded Video:** [Demo-Video.webm](https://github.com/user-attachments/assets/96809cc1-4945-4b0a-b408-569579e17276)
+
+**Mp4 Format:**
+
+https://github.com/user-attachments/assets/983b0677-2d38-473c-97b7-b81da06db345
+
+
+
 ---
 
 ## 🛠️ About the Project
