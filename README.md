@@ -1,7 +1,15 @@
-# Mindmatrix – Hybrid Test Automation Project 🔧🚀
+# Mindmatrix – Test Automation Project 🔧🚀
 
-**Hybrid Project – Mindmatrix Integration**
-A fully configured hybrid automation testing project built for the Mindmatrix application. This repository demonstrates comprehensive end-to-end test coverage of core workflows and integration with CI/CD processes.
+# Mindmatrix Automation Framework
+
+## Overview
+This project contains a Hybrid Test Automation Framework developed for testing an enterprise PRM (Partner Relationship Management) platform.
+
+The goal of the framework is to provide scalable, maintainable, and reliable automation for UI and functional workflows while reducing manual regression effort and improving release confidence.
+
+The framework was designed to simulate real production testing scenarios including regression validation, build verification, and data validation.
+
+---
 
 **Repository:** [https://github.com/Pankaj379/Mindmatrix.git](https://github.com/Pankaj379/Mindmatrix.git)
 
@@ -11,154 +19,87 @@ A fully configured hybrid automation testing project built for the Mindmatrix ap
 
 https://github.com/user-attachments/assets/983b0677-2d38-473c-97b7-b81da06db345
 
+---
 
+## Tech Stack
+- Language: Java
+- Automation Tool: Selenium WebDriver
+- Test Framework: TestNG
+- Build Tool: Maven
+- CI Support: Jenkins Ready
+- API Validation: Postman / RestAssured (support)
+- Design Pattern: Page Object Model (POM)
 
 ---
 
-## 🛠️ About the Project
+## Framework Architecture
+The framework follows a Hybrid approach combining:
+- Page Object Model for maintainability
+- Data-driven execution using TestNG
+- Reusable utilities for common operations
+- Modular test design for scalability
 
-This project is created as part of SDET/QA Automation implementation to validate the core features and workflows of the Mindmatrix platform. Mindmatrix is a unified sales ecosystem and partner relationship management solution combining marketing automation, channel management, and sales enablement tools.
+Structure:
 
-The hybrid testing framework here includes:
-✔ Automated test scripts
-✔ End-to-end scenario automation
-✔ Test data sets and structured test reports
-✔ Cross-platform configuration management
-✔ Integration with CI/CD for continuous testing
+src/main/java
+- pages (UI locators & actions)
+- utilities (waits, browser setup, helpers)
 
----
+src/test/java
+- testcases (test logic)
+- base (driver initialization & setup)
+- listeners (report handling)
 
-## 📂 Repository Structure
-
-```
-Mindmatrix/
-├── .settings/
-├── logs/
-├── reports/
-├── screenshots/
-├── src/test/
-├── test-output/
-├── testData/
-├── .gitignore
-├── pom.xml
-├── docker-compose.yaml
-├── mastertest.xml
-└── README.md
-```
+testng.xml
+- suite execution configuration
 
 ---
 
-## 🧪 Test Framework Overview
-
-This repository follows a **Hybrid Framework** combining:
-
-🔸 Keyword Driven Testing
-🔸 Data Driven Testing
-🔸 Page Object Model (POM)
-🔸 TestNG for test orchestration
-🔸 Maven for build & dependency management
-
-These best practices help improve maintainability, scalability, and reusability of the automation suite.
+## Key Features
+- Reusable page classes
+- Centralized driver management
+- Parallel execution ready
+- Group execution (Smoke / Regression)
+- Easy module expansion
+- Failure debugging support
 
 ---
 
-## 🚀 Features
-✔ End-to-end test scenarios
-✔ Automated login & workflow validation
-✔ Structured test data management
-✔ Detailed HTML/XML reports
-✔ Screenshots on test failure
-✔ Local and CI/CD execution support
+## Problem Solved
+Before automation:
+- Full regression took multiple days
+- Manual verification required for each release
+
+After automation:
+- Automated core workflows
+- Reduced regression effort significantly
+- Faster build validation
+- Improved release reliability
 
 ---
 
-## 🧰 Tech Stack
-
-| Component        | Technology                 |
-| ---------------- | -------------------------- |
-| Language         | Java                       |
-| Testing          | Selenium WebDriver, TestNG |
-| Build Tool       | Maven                      |
-| Reporting        | TestNG Reports / HTML      |
-| CI/CD (Optional) | GitHub Actions / Jenkins   |
-| Containers       | Docker Compose             |
+## Example Covered Scenarios
+- Login & authentication validation
+- Asset & template workflow validation
+- Form submission & UI verification
+- Negative and edge-case scenarios
 
 ---
 
-## 📦 Setup & Installation
+## How to Run
+1. Clone repository
+2. Install dependencies
+3. Update config in base class
+4. Run testng.xml
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/Pankaj379/Mindmatrix.git
-   ```
-
-2. **Navigate to project directory:**
-
-   ```bash
-   cd Mindmatrix
-   ```
-
-3. **Install dependencies (Maven):**
-
-   ```bash
-   mvn clean install
-   ```
-
-4. **Execute tests:**
-
-   ```bash
-   mvn test
-   ```
+Command:
+mvn clean test
 
 ---
 
-## 🧩 How to Contribute
-
-Contributions are welcome! If you want to add improvements:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-test`)
-3. Commit your changes (`git commit -m "Add …"`)
-4. Push (`git push origin feature/new-test`)
-5. Open a Pull Request
-
----
-
-## 📈 Best Practices Included
-
-✔ Parameterized tests
-✔ Cross-browser support (configurable)
-✔ Structured logging & reporting
-✔ Data-driven validations
-✔ Modular test design
-
----
-
-## 📘 Useful Commands
-
-| Command      | Purpose                       |
-| ------------ | ----------------------------- |
-| `mvn test`   | Run all automation tests      |
-| `mvn clean`  | Clean compiled files          |
-| `mvn verify` | Run build and test validation |
-
----
-
-## 🧑‍💻 About You
-
-This automation project showcases your SDET capabilities including:
-
-* Designing and implementing hybrid test frameworks
-* End-to-end automation solutions
-* CI/CD integration readiness
-* Clean documentation & reporting
-
----
-
-## 📝 License
-
-This project is for learning and portfolio purposes.
-
----
+## Future Improvements
+- Docker execution
+- Reporting dashboard
+- API automation integration
+- Cross-browser execution
 
