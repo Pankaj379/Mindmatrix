@@ -1,6 +1,4 @@
-# Mindmatrix – Test Automation Project 🔧🚀
-
-# Mindmatrix Automation Framework
+# Mindmatrix Automation Framework 🔧🚀
 
 ## Overview
 This project contains a Hybrid Test Automation Framework developed for testing an enterprise PRM (Partner Relationship Management) platform.
