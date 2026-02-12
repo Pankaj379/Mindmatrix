@@ -39,10 +39,6 @@ The framework follows a Hybrid approach combining:
 
 Structure:
 
-src/main/java
-- pages (UI locators & actions)
-- utilities (waits, browser setup, helpers)
-
 src/test/java
 - testcases (test logic)
 - base (driver initialization & setup)
