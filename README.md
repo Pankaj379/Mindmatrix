@@ -37,8 +37,9 @@ The framework follows a Hybrid approach combining:
 - Reusable utilities for common operations
 - Modular test design for scalability
 
-Structure:
+## 📁 Project Structure
 
+```text
 Mindmatrix/
 │
 ├── src/
@@ -85,23 +86,16 @@ Mindmatrix/
 │               └── crossBrowser.xml
 │
 ├── reports/
-│
 ├── screenshots/
-│
 ├── logs/
-│
 ├── docker/
 │   ├── docker-compose.yaml
 │   └── docker-grid.xml
-│
 ├── ci/
 │   └── CmdRun.bat
-│
 ├── pom.xml
 └── README.md
-
-
----
+```
 
 ## Key Features
 - Reusable page classes
