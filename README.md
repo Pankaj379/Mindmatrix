@@ -39,13 +39,67 @@ The framework follows a Hybrid approach combining:
 
 Structure:
 
-src/test/java
-- testcases (test logic)
-- base (driver initialization & setup)
-- listeners (report handling)
+Mindmatrix/
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       ├── base/
+│   │       │     └── BaseTest.java
+│   │       │
+│   │       ├── pages/
+│   │       │     └── LoginPage.java
+│   │       │
+│   │       ├── utilities/
+│   │       │     ├── ConfigReader.java
+│   │       │     ├── ExcelReader.java
+│   │       │     ├── WaitUtils.java
+│   │       │     └── ScreenshotUtil.java
+│   │       │
+│   │       ├── drivers/
+│   │       │     └── DriverFactory.java
+│   │       │
+│   │       └── constants/
+│   │             └── FrameworkConstants.java
+│
+│   ├── test/
+│   │   └── java/
+│   │       ├── tests/
+│   │       │     ├── LoginTest.java
+│   │       │     ├── CampaignTest.java
+│   │       │     └── UserManagementTest.java
+│   │       │
+│   │       └── listeners/
+│   │             └── TestListener.java
+│
+│   └── resources/
+│         ├── config/
+│         │     └── config.properties
+│         │
+│         ├── testdata/
+│         │     └── testData.xlsx
+│         │
+│         └── testng/
+│               ├── regression.xml
+│               ├── smoke.xml
+│               └── crossBrowser.xml
+│
+├── reports/
+│
+├── screenshots/
+│
+├── logs/
+│
+├── docker/
+│   ├── docker-compose.yaml
+│   └── docker-grid.xml
+│
+├── ci/
+│   └── CmdRun.bat
+│
+├── pom.xml
+└── README.md
 
-testng.xml
-- suite execution configuration
 
 ---
 
